@@ -1,2 +1,2 @@
 # VuexToDoList
-use Vuex Bootsrap-vue Vue-cli 
+use skill Vuex Bootsrap-vue Vue-cli 
