@@ -1,7 +1,7 @@
 
 <template>
 <div class="Container">
-    <div class="div row text-center d-flex flex-column d-grid gap-4 mx-auto text-bg-secondary w-25 p-3">
+    <div class="div row col-12 col-xl-4 text-center d-flex flex-column d-grid gap-4 mx-auto text-bg-secondary p-3">
         <h1 class="mb-10">Vue備忘錄</h1>
         <div class="col">
             <span class="col-1">內容:</span> 
@@ -39,17 +39,5 @@
             }
         },
     }
-    window.addEventListener('load',()=>{
-        
-        if(window.innerWidth < 576){
-            let div = document.getElementsByClassName('div')[0];
-            // console.log(div);
-            div.classList.toggle("w-25");
-        }
-    })
 
 </script>
-
-<style>
-
-</style>
