@@ -34,7 +34,10 @@
             addtodolist(todotext,tododate,todotime){
                 let tododata  = {text:todotext, date:tododate, time:todotime}
                 if(todotext != ''){
-                    this.$store.commit("addtodo",tododata)
+                    this.$store.commit("addtodo",tododata);
+                    todotext = ''
+                    tododate = ''
+                    todotime = ''
                 }
             }
         },

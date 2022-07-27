@@ -21,9 +21,7 @@ const store = new Vuex.Store({
             state.todolist.push({
                 todotext:tododata.text,tododate:tododata.date,todotime:tododata.time
             })
-        },
-        deletetodolist(){
-
+            state.todolist.localstage
         },
     },
     getters:{
